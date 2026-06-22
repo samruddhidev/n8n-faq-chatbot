@@ -54,7 +54,7 @@
     },
     {
       "parameters": {
-        "contextWindowLength": 20
+        "contextWindowLength": 10
       },
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.4,
@@ -69,10 +69,10 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1cnGmzPP5N_gXKSjkj7yvoge4fs_y6lnEbp7aQYGvUak",
+          "value": "YOUR_FAQ_SHEET_ID"
           "mode": "list",
           "cachedResultName": "Chatbot",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1cnGmzPP5N_gXKSjkj7yvoge4fs_y6lnEbp7aQYGvUak/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_FAQ_SHEET_ID"
         },
         "sheetName": {
           "__rl": true,
@@ -103,10 +103,10 @@
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "1Yvr4o8LY74wMFzUDVd1_OModsEV6-yighl8m_g667vM",
+         "value": "YOUR_UNANSWERED_QUERIES_SHEET_ID"
           "mode": "list",
           "cachedResultName": "unanswered_queries",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Yvr4o8LY74wMFzUDVd1_OModsEV6-yighl8m_g667vM/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_UNANSWERED_QUERIES_SHEET_ID"
         },
         "sheetName": {
           "__rl": true,
@@ -157,12 +157,6 @@
       ],
       "id": "a69fc3ec-c4cf-466f-b836-178cf40b2c63",
       "name": "Append row in sheet in Google Sheets",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "WoAkJyfEPDJGMiPe",
-          "name": "Google Sheets OAuth2 API"
-        }
-      }
     }
   ],
   "pinData": {},
