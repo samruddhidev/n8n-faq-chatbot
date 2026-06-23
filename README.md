@@ -100,6 +100,6 @@ Future Improvements
 
 Author
 
-Samruddhi
+Samruddhi Jain
 
 Built as an AI Automation and Workflow Project using n8n and Google Gemini.
